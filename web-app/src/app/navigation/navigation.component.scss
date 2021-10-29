@@ -1,7 +1,12 @@
 @import '~@angular/material/theming';
 @import '~ngx-bottom-nav/theming';
-
+mat-toolbar {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
 ngx-bottom-nav {
     position: fixed;
     bottom: 0;
+    z-index: 100;
 }
