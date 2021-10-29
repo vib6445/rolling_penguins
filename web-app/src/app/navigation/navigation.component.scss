@@ -1,0 +1,7 @@
+@import '~@angular/material/theming';
+@import '~ngx-bottom-nav/theming';
+
+ngx-bottom-nav {
+    position: fixed;
+    bottom: 0;
+}

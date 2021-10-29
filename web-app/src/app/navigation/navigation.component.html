@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+  <span id="current-title">{{ current_title }}</span>
+</mat-toolbar>
+
+<ngx-bottom-nav color="primary">
+    <button ngx-bottom-nav label="Explore" routerLink="/explore" id="custom-styled-ngx-nav-button" (click)="setDocTitle('Explore')">
+      <mat-icon ngxBottomNavIcon>search</mat-icon>
+    </button>
+  
+    <button ngx-bottom-nav label="Map" routerLink="/map" id="custom-styled-ngx-nav-button" (click)="setDocTitle('Map')">
+      <mat-icon ngxBottomNavIcon>map</mat-icon>
+    </button>
+  
+    <button ngx-bottom-nav label="Events" routerLink="/events" id="custom-styled-ngx-nav-button" (click)="setDocTitle('Events')">
+      <mat-icon ngxBottomNavIcon>local_activity</mat-icon>
+    </button>
+  
+    <button ngx-bottom-nav label="Personal" routerLink="/personal" id="custom-styled-ngx-nav-button" style="color: white" (click)="setDocTitle('Personal')">
+      <mat-icon ngxBottomNavIcon>face</mat-icon>
+    </button>
+  </ngx-bottom-nav>
+  
